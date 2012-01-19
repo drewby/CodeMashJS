@@ -1,0 +1,5 @@
+This is a simple Node.js site I built during the CodeMash conference. 
+
+There's a summary of the project here: http://drewby.com/a-codemash-session-list-with-node.js-and-windows-azure
+
+Be sure to install dependencies by running 'npm install' from the root of the Web role.
