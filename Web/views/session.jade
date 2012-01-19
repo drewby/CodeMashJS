@@ -1,0 +1,21 @@
+div(data-role='page')
+  div(data-role='header')
+    h1= title
+  div(data-role='content')
+    a(href='/sessions/ics/#{ session.ID }', data-role='button', data-inline='true', data-ajax='false') Add to Outlook
+  div(data-role='content')
+    ul.ui-listview(data-role='listview')
+      li(data-role='list-divider') Title
+      li= session.Title      
+      li(data-role='list-divider') Start
+      li= session.StartString
+      li(data-role='list-divider') Room
+      li= session.Room
+      li(data-role='list-divider') Speaker
+      li= session.SpeakerName
+      li(data-role='list-divider') Technology
+      li= session.Technology
+      li(data-role='list-divider') Difficulty
+      li= session.Difficulty
+      li(data-role='list-divider') Abstract
+      li= session.Abstract
